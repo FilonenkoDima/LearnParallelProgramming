@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTasks", "WaitingT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Sharing and Synchronization", "Data Sharing and Synchronization", "{78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSections", "CriticalSections\CriticalSections.csproj", "{373AC083-CC61-4220-9E40-B91115F659B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373AC083-CC61-4220-9E40-B91115F659B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373AC083-CC61-4220-9E40-B91115F659B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373AC083-CC61-4220-9E40-B91115F659B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373AC083-CC61-4220-9E40-B91115F659B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{41589C1F-45A6-449B-924E-3B10F20117A4} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 		{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
+		{373AC083-CC61-4220-9E40-B91115F659B8} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
