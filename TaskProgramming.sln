@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader-WriterLocks", "Reader-WriterLocks\Reader-WriterLocks.csproj", "{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrent Collections", "Concurrent Collections", "{9EC1E12E-95FE-41A7-9401-9864F6C8753F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuncurrentDictionary", "CuncurrentDictionary\CuncurrentDictionary.csproj", "{6A18CE15-47E4-4058-BBA1-102A4F7C3733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A18CE15-47E4-4058-BBA1-102A4F7C3733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A18CE15-47E4-4058-BBA1-102A4F7C3733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A18CE15-47E4-4058-BBA1-102A4F7C3733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A18CE15-47E4-4058-BBA1-102A4F7C3733}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +96,7 @@ Global
 		{E1724D25-CA13-4990-92BA-4E80FE5A478A} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
 		{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
 		{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
+		{6A18CE15-47E4-4058-BBA1-102A4F7C3733} = {9EC1E12E-95FE-41A7-9401-9864F6C8753F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
