@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTimeToPass", "Wai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTasks", "WaitingToTasks\WaitingForTasks.csproj", "{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{28EB3A6E-060F-4EC4-8686-A7926E70FF7F} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 		{41589C1F-45A6-449B-924E-3B10F20117A4} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 		{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
+		{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
