@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskProgramming", "TaskProg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{28EB3A6E-060F-4EC4-8686-A7926E70FF7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTimeToPass", "WaitingForTimeToPass\WaitingForTimeToPass.csproj", "{41589C1F-45A6-449B-924E-3B10F20117A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{28EB3A6E-060F-4EC4-8686-A7926E70FF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28EB3A6E-060F-4EC4-8686-A7926E70FF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28EB3A6E-060F-4EC4-8686-A7926E70FF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41589C1F-45A6-449B-924E-3B10F20117A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41589C1F-45A6-449B-924E-3B10F20117A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41589C1F-45A6-449B-924E-3B10F20117A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41589C1F-45A6-449B-924E-3B10F20117A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A71296D4-F41F-42C9-B321-EA24EE193630} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 		{28EB3A6E-060F-4EC4-8686-A7926E70FF7F} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
+		{41589C1F-45A6-449B-924E-3B10F20117A4} = {71857C23-9B79-4499-94A6-531F7FFAD3D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
