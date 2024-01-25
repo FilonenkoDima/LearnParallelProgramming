@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockingAndLockRecursion", "SpinLockingAndLockRecursion\SpinLockingAndLockRecursion.csproj", "{E1724D25-CA13-4990-92BA-4E80FE5A478A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{E1724D25-CA13-4990-92BA-4E80FE5A478A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1724D25-CA13-4990-92BA-4E80FE5A478A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1724D25-CA13-4990-92BA-4E80FE5A478A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{373AC083-CC61-4220-9E40-B91115F659B8} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
 		{B1F72E16-5E63-4197-9FD4-175BCCA226D3} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
 		{E1724D25-CA13-4990-92BA-4E80FE5A478A} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
+		{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3} = {78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
