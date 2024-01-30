@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationAndExceptions",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeOptions", "MergeOptions\MergeOptions.csproj", "{133D42D0-1147-4111-84CC-468A8B2CF41D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAggregation", "CustomAggregation\CustomAggregation.csproj", "{BC395BDF-CD5F-4B7C-B9A0-45A1F1E744EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{133D42D0-1147-4111-84CC-468A8B2CF41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133D42D0-1147-4111-84CC-468A8B2CF41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133D42D0-1147-4111-84CC-468A8B2CF41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC395BDF-CD5F-4B7C-B9A0-45A1F1E744EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC395BDF-CD5F-4B7C-B9A0-45A1F1E744EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC395BDF-CD5F-4B7C-B9A0-45A1F1E744EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC395BDF-CD5F-4B7C-B9A0-45A1F1E744EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -222,6 +228,7 @@ Global
 		{85F93D28-234C-4BDA-900B-7C72A41E8393} = {7FA2BF13-5D2B-4BA5-9061-8344683EEA52}
 		{AC96D418-7BED-483E-8F95-AF13FAB2C6F2} = {7FA2BF13-5D2B-4BA5-9061-8344683EEA52}
 		{133D42D0-1147-4111-84CC-468A8B2CF41D} = {7FA2BF13-5D2B-4BA5-9061-8344683EEA52}
+		{BC395BDF-CD5F-4B7C-B9A0-45A1F1E744EA} = {7FA2BF13-5D2B-4BA5-9061-8344683EEA52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
