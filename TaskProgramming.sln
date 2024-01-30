@@ -57,6 +57,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel Loop", "Parallel L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvokeForForEach", "ParallelInvokeForForEach\ParallelInvokeForForEach.csproj", "{97A2B055-1F74-4CF0-92EF-9291DF75C874}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingCancellationsAndExceptions", "BreakingCancellationsAndExceptions\BreakingCancellationsAndExceptions.csproj", "{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +153,10 @@ Global
 		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -178,6 +184,7 @@ Global
 		{C5197BDE-C9C5-47BA-B9B5-46FDD1E70461} = {8D23D0DD-2237-447F-A0DF-7107F62C651E}
 		{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB} = {8D23D0DD-2237-447F-A0DF-7107F62C651E}
 		{97A2B055-1F74-4CF0-92EF-9291DF75C874} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
+		{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
