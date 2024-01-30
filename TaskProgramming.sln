@@ -3,55 +3,59 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingAndStartingTasks", "TaskProgramming\CreatingAndStartingTasks.csproj", "{A71296D4-F41F-42C9-B321-EA24EE193630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingAndStartingTasks", "TaskProgramming\CreatingAndStartingTasks.csproj", "{A71296D4-F41F-42C9-B321-EA24EE193630}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskProgramming", "TaskProgramming", "{71857C23-9B79-4499-94A6-531F7FFAD3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{28EB3A6E-060F-4EC4-8686-A7926E70FF7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellingTasks", "CancellingTasks\CancellingTasks.csproj", "{28EB3A6E-060F-4EC4-8686-A7926E70FF7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTimeToPass", "WaitingForTimeToPass\WaitingForTimeToPass.csproj", "{41589C1F-45A6-449B-924E-3B10F20117A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitingForTimeToPass", "WaitingForTimeToPass\WaitingForTimeToPass.csproj", "{41589C1F-45A6-449B-924E-3B10F20117A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForTasks", "WaitingToTasks\WaitingForTasks.csproj", "{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitingForTasks", "WaitingToTasks\WaitingForTasks.csproj", "{F2955360-48D3-4FDD-99FA-8FAA33AD0EA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{EBA9802F-B1A0-42D3-9F4E-18ED62DBAE13}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Sharing and Synchronization", "Data Sharing and Synchronization", "{78BAF9C8-C783-4C32-BAD3-2E485F19D4EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalSections", "CriticalSections\CriticalSections.csproj", "{373AC083-CC61-4220-9E40-B91115F659B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriticalSections", "CriticalSections\CriticalSections.csproj", "{373AC083-CC61-4220-9E40-B91115F659B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{B1F72E16-5E63-4197-9FD4-175BCCA226D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterlockedOperations", "InterlockedOperations\InterlockedOperations.csproj", "{B1F72E16-5E63-4197-9FD4-175BCCA226D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockingAndLockRecursion", "SpinLockingAndLockRecursion\SpinLockingAndLockRecursion.csproj", "{E1724D25-CA13-4990-92BA-4E80FE5A478A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpinLockingAndLockRecursion", "SpinLockingAndLockRecursion\SpinLockingAndLockRecursion.csproj", "{E1724D25-CA13-4990-92BA-4E80FE5A478A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mutex", "Mutex\Mutex.csproj", "{2FF07FD5-FB43-44B3-8387-E0E0B7109DF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reader-WriterLocks", "Reader-WriterLocks\Reader-WriterLocks.csproj", "{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reader-WriterLocks", "Reader-WriterLocks\Reader-WriterLocks.csproj", "{8C0E3DFC-4E6E-4A08-909D-1E51B39B9C24}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrent Collections", "Concurrent Collections", "{9EC1E12E-95FE-41A7-9401-9864F6C8753F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDictionary", "CuncurrentDictionary\ConcurrentDictionary.csproj", "{6A18CE15-47E4-4058-BBA1-102A4F7C3733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentDictionary", "CuncurrentDictionary\ConcurrentDictionary.csproj", "{6A18CE15-47E4-4058-BBA1-102A4F7C3733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentQueue", "ConcurrentQueue\ConcurrentQueue.csproj", "{E9F46D10-EC30-4852-9BD9-811787D68AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentQueue", "ConcurrentQueue\ConcurrentQueue.csproj", "{E9F46D10-EC30-4852-9BD9-811787D68AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentStack", "ConcurrentStack\ConcurrentStack.csproj", "{DAD8496B-074B-4182-B397-D4CEACD10356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentStack", "ConcurrentStack\ConcurrentStack.csproj", "{DAD8496B-074B-4182-B397-D4CEACD10356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBag", "ConcurrentBag\ConcurrentBag.csproj", "{7233927A-C8DF-4636-8E1C-BD6FB083DB06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrentBag", "ConcurrentBag\ConcurrentBag.csproj", "{7233927A-C8DF-4636-8E1C-BD6FB083DB06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionAndTheProducer-ConsumerPattern", "BlockingCollectionAndTheProducer-ConsumerPattern\BlockingCollectionAndTheProducer-ConsumerPattern.csproj", "{B265D799-91D3-4E7A-BDE3-FF4F77F6DD50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockingCollectionAndTheProducer-ConsumerPattern", "BlockingCollectionAndTheProducer-ConsumerPattern\BlockingCollectionAndTheProducer-ConsumerPattern.csproj", "{B265D799-91D3-4E7A-BDE3-FF4F77F6DD50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task Coordination", "Task Coordination", "{8D23D0DD-2237-447F-A0DF-7107F62C651E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Continuations", "Continuations\Continuations.csproj", "{51286C8C-B86C-4DC0-B3F0-CEF102FF81DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Continuations", "Continuations\Continuations.csproj", "{51286C8C-B86C-4DC0-B3F0-CEF102FF81DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildTasks", "ChildTasks\ChildTasks.csproj", "{D7035100-F1A8-43BD-9CC7-9F8A921B202B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChildTasks", "ChildTasks\ChildTasks.csproj", "{D7035100-F1A8-43BD-9CC7-9F8A921B202B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier", "Barrier\Barrier.csproj", "{70303219-70CD-4D58-89D0-3FEB55166CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Barrier", "Barrier\Barrier.csproj", "{70303219-70CD-4D58-89D0-3FEB55166CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoutdownEvent", "CoutdownEvent\CoutdownEvent.csproj", "{7D99C494-555F-4F15-A179-D33A8BB7D175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoutdownEvent", "CoutdownEvent\CoutdownEvent.csproj", "{7D99C494-555F-4F15-A179-D33A8BB7D175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualResetEventAndAutoResetEvent", "ManualResetEventAndAutoResetEvent\ManualResetEventAndAutoResetEvent.csproj", "{C5197BDE-C9C5-47BA-B9B5-46FDD1E70461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManualResetEventAndAutoResetEvent", "ManualResetEventAndAutoResetEvent\ManualResetEventAndAutoResetEvent.csproj", "{C5197BDE-C9C5-47BA-B9B5-46FDD1E70461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SemaphoreSlim", "SemaphoreSlim\SemaphoreSlim.csproj", "{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel Loop", "Parallel Loop", "{0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvokeForForEach", "ParallelInvokeForForEach\ParallelInvokeForForEach.csproj", "{97A2B055-1F74-4CF0-92EF-9291DF75C874}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +147,10 @@ Global
 		{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A2B055-1F74-4CF0-92EF-9291DF75C874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +177,7 @@ Global
 		{7D99C494-555F-4F15-A179-D33A8BB7D175} = {8D23D0DD-2237-447F-A0DF-7107F62C651E}
 		{C5197BDE-C9C5-47BA-B9B5-46FDD1E70461} = {8D23D0DD-2237-447F-A0DF-7107F62C651E}
 		{0BDE0E68-A0C6-4FD1-A48A-7F9252CA44BB} = {8D23D0DD-2237-447F-A0DF-7107F62C651E}
+		{97A2B055-1F74-4CF0-92EF-9291DF75C874} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
