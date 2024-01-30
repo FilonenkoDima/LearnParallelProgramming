@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakingCancellationsAndExc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocalStorage", "ThreadLocalStorage\ThreadLocalStorage.csproj", "{AC3E6DC7-F1DE-4B6C-BF9C-44BF6CD5E1F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitioning", "Partitioning\Partitioning.csproj", "{F2E74700-B2C1-4392-83F9-9E6090B1EC46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{AC3E6DC7-F1DE-4B6C-BF9C-44BF6CD5E1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC3E6DC7-F1DE-4B6C-BF9C-44BF6CD5E1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC3E6DC7-F1DE-4B6C-BF9C-44BF6CD5E1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E74700-B2C1-4392-83F9-9E6090B1EC46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E74700-B2C1-4392-83F9-9E6090B1EC46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E74700-B2C1-4392-83F9-9E6090B1EC46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E74700-B2C1-4392-83F9-9E6090B1EC46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -192,6 +198,7 @@ Global
 		{97A2B055-1F74-4CF0-92EF-9291DF75C874} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
 		{EDC3FB8E-C57E-49BE-90D0-AC21DB8C4C98} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
 		{AC3E6DC7-F1DE-4B6C-BF9C-44BF6CD5E1F9} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
+		{F2E74700-B2C1-4392-83F9-9E6090B1EC46} = {0CB05EFD-FA47-459E-8D33-F7E8BD2881DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EC017E9D-F264-4154-B696-B68B9D01CF95}
